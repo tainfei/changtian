@@ -1,5 +1,5 @@
 <script>
-	//判断是否是安卓手机
+	//判断是否是安卓手机还是苹果手机
 	function checkPlatform(){
 		if(/android/i.test(navigator.userAgent)){
 		$("#image_file").attr('accept','image/*');
